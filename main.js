@@ -31,7 +31,7 @@ const app = new Vue ({
 
     methods:{
         addTask(){
-            if(this.toDo.object < 1){
+            if(this.toDo.object.length < 1){
                 this.error = true;
             } else{
                 this.toDoList.push(this.toDo);
