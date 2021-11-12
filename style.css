@@ -1,0 +1,10 @@
+.gp-logo{
+    width: 100px;
+}
+
+.gp-container{
+    width: 60%;
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
