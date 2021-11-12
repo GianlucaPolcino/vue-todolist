@@ -4,7 +4,34 @@
 
 .gp-container{
     width: 60%;
+    min-height: 60px;
     margin: auto;
     background-color: lightgrey;
     border-radius: 4px;
+}
+
+.gp-list{
+    border-bottom: 1px solid black;
+}
+
+.gp-list:last-child{
+    border-bottom: none;
+}
+
+.gp-list i{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.gp-list i:hover{
+    color: red;
+}
+
+.gp-line{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.gp-container p{
+    cursor: pointer;
 }
