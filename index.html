@@ -29,7 +29,7 @@
                 <div class="row pb-5">
                     <div class="col text-center pt-5">
                         <h2 v-if="error" class="text-danger fw-bold pb-3">Attenzione, inserisci qualcosa da fare!</h2>
-                        <input @keyup.13="addTask" v-model="toDo.object" class="me-3 align-middle" type="text" name="" id="">
+                        <input @keyup.13="addTask" v-model.trim="toDo.object" class="me-3 align-middle" type="text" name="" id="">
                         <button @click="addTask" class="btn btn-outline-dark">Aggiungi</button>
                     </div>
                 </div>
